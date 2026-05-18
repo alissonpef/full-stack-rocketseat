@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import { AppError } from "../utils/AppError";
 
 class ProductsController {
   /*
@@ -17,6 +18,13 @@ class ProductsController {
 
   create(req: Request, res: Response) {
     const { name, price } = req.body;
+
+    if (!name) {
+        throw new AppError("Nome do produto é obrigatório!")
+    }
+    if (!price) {
+        throw new AppError("Preço do produto é obrigatório!")
+    }
 
     // res.send(`Produto ${name} custa ${price}`)
     res.status(201).json({ name, price, user_id: req.user_id });
