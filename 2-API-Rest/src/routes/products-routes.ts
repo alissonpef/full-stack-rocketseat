@@ -1,7 +1,7 @@
-import { Router } from "express"
+import { Router } from "express";
 import { myMiddleware } from "../middleware/my-middleware";
 
-const productsRoutes = Router()
+const productsRoutes = Router();
 
 productsRoutes.get("/:id", (req, res) => {
   const { id } = req.params; // URL
@@ -17,4 +17,4 @@ productsRoutes.post("/", myMiddleware, (req, res) => {
   res.status(201).json({ name, price, user_id: req.user_id });
 });
 
-export { productsRoutes }
+export { productsRoutes };
