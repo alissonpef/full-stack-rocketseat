@@ -1,0 +1,48 @@
+SELECT name, price FROM products
+SELECT price, name FROM products
+
+SELECT * FROM products WHERE name = 'teclado'
+SELECT * FROM products WHERE price = 150
+SELECT * FROM products WHERE price <> 150
+SELECT * FROM products WHERE price > 150
+SELECT * FROM products WHERE price < 150
+SELECT * FROM products WHERE price >= 150
+SELECT * FROM products WHERE price <= 150
+
+SELECT * FROM products WHERE price > 150 AND price < 1500 AND id > 2
+SELECT * FROM products WHERE price > 150 OR id > 1
+
+SELECT * FROM products WHERE (price > 150 AND price < 1500) AND (category = 'audio' OR category = 'image')
+
+SELECT * FROM products WHERE price BETWEEN 50 AND 200
+
+SELECT * FROM products WHERE price IN (50, 150, 500)
+
+SELECT * FROM products WHERE name LIKE '%ado'
+SELECT * FROM products WHERE name LIKE 'tec%'
+SELECT * FROM products WHERE name LIKE '%a%'
+
+SELECT * FROM products ORDER BY price
+SELECT * FROM products ORDER BY price DESC
+SELECT * FROM products ORDER BY name
+SELECT * FROM products ORDER BY price DESC LIMIT 1
+
+SELECT COUNT(*) FROM products
+SELECT COUNT (name) FROM products
+SELECT COUNT(*) FROM products WHERE price > 50
+
+SELECT SUM(price) FROM products
+SELECT SUM(*) FROM products WHERE category = 'acessory'
+
+SELECT AVG(price) FROM products
+SELECT AVG(*) FROM products WHERE category = 'acessory'
+
+SELECT COUNT(*) AS 'TOTAL DE PRODUTOS' FROM products
+SELECT id AS 'code', name FROM products
+
+SELECT name, COUNT(*) AS 'TOTAL' FROM products WHERE price > 100 GROUP BY category ORDER BY TOTAL
+SELECT name, COUNT(*) AS 'TOTAL'
+FROM products
+WHERE price > 100
+GROUP BY category
+ORDER BY TOTAL

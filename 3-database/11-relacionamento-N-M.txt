@@ -1,0 +1,14 @@
+-- N-M (cria uma nova tabela para guardar as chaves)
+CREATE TABLE students_courses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    student_id INTEGER UNIQUE NOT NULL,
+    course_id INTEGER NOT NULL,
+
+    FOREIGN KEY (student_id) REFERENCES students(id)
+    FOREIGN KEY (course_id) REFERENCES courses(id)
+)
+
+SELECT students_courses.id, students_courses.student_id, students.name AS student_name, students_courses.course_id, courses.name AS course_name
+FROM students_courses
+INNER JOIN students ON students.id = students_courses.student_id
+INNER JOIN courses ON courses.id = students_courses.course_id

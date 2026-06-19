@@ -1,0 +1,17 @@
+-- 1-N (chave estrangeira não é unique)
+CREATE TABLE students (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL
+)
+
+CREATE TABLE course_modules (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    course_id INTEGER NOT NULL
+
+    FOREIGN KEY (course_id) REFERENCES courses(id)
+)
+
+SELECT modules.id, modules.name, modules.course_id, courses.name
+FROM course_modules AS modules
+INNER JOIN courses ON modules.id = modules.courses_id
