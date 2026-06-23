@@ -1,22 +1,99 @@
-# Bem-vindo(a) ao meu Repositório Full Stack! 👋
+<a id="readme-top"></a>
 
-Este repositório é o seu guia completo e prático para dominar a construção de aplicações web de ponta a ponta. Cobrimos desde a construção de APIs robustas, seguras e conteinerizadas no **Back-end (Node.js)** até o desenvolvimento de interfaces interativas, modernas e responsivas no **Front-end (React)**.
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/alissonpef/backend_onebitcode">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Logo Node.js" width="120" height="auto">
+  </a>
+
+  <h3 align="center">Meu Repositório Full Stack</h3>
+
+  <p align="center">
+    O seu guia completo e prático para dominar a construção de aplicações web de ponta a ponta!
+    <br />
+    <a href="https://github.com/alissonpef/backend_onebitcode"><strong>Explore os códigos »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/alissonpef/backend_onebitcode/issues">Reportar Bug</a>
+    ·
+    <a href="https://github.com/alissonpef/backend_onebitcode/issues">Solicitar Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o Projeto</a>
+      <ul>
+        <li><a href="#tecnologias-e-ferramentas">Tecnologias e Ferramentas</a></li>
+      </ul>
+    </li>
+    <li><a href="#estrutura-da-trilha-de-aprendizado">Estrutura da Trilha de Aprendizado</a></li>
+    <li>
+      <a href="#como-iniciar">Como Iniciar</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#contato">Contato</a></li>
+  </ol>
+</details>
+
+<!-- SOBRE O PROJETO -->
+## Sobre o Projeto
+
+Olá! Meu nome é **Alisson**. Este repositório é o seu guia completo e prático para dominar a construção de aplicações web de ponta a ponta. Cobrimos desde a construção de APIs robustas, seguras e conteinerizadas no **Back-end (Node.js)** até o desenvolvimento de interfaces interativas, modernas e responsivas no **Front-end (React)**.
 
 Aqui você encontrará todo o código-fonte, projetos e desafios práticos desenvolvidos ao longo da jornada.
 
----
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-## ⚠️ Pré-requisitos
+### Tecnologias e Ferramentas
 
-Para acompanhar e executar os projetos deste repositório, é recomendado que você tenha:
-* Conhecimento prévio em Lógica de Programação e JavaScript.
-* **Node.js** instalado na sua máquina.
-* **Docker** e **Docker Compose** instalados (para os módulos avançados de banco de dados).
-* Um gerenciador de pacotes (como `npm`, `yarn` ou `pnpm`).
+Este repositório aplica as tecnologias mais demandadas pelo mercado atual:
 
----
+**Linguagens:**
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+* ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-## 📚 Estrutura da Trilha de Aprendizado
+**Back-end:**
+* ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+* ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+
+**Front-end:**
+* ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+* ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Banco de Dados & Acesso:**
+* ![SQL](https://img.shields.io/badge/SQL-%234479A1.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+* ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+* ![SQLite](https://img.shields.io/badge/SQLite-%23003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+* ![Knex.js](https://img.shields.io/badge/Knex.js-D26B38?style=for-the-badge&logoColor=white)
+* ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+
+**DevOps, Infra & Ferramentas:**
+* ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+* ![Git](https://img.shields.io/badge/GIT-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+* ![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)
+* ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+* ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+* ![Zod](https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white)
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+
+<!-- ESTRUTURA DA TRILHA DE APRENDIZADO -->
+## Estrutura da Trilha de Aprendizado
 
 O conteúdo é estruturado em níveis de complexidade, divididos entre Back-end e Front-end, garantindo uma progressão de aprendizado lógica e eficaz.
 
@@ -80,29 +157,62 @@ Aprofundamento na construção de SPAs (Single Page Applications) complexas e co
 | **Requisições HTTP e API** | Consumo de APIs (back-end), uso de Contextos, paginação e upload de imagens no front-end. | Context API, Fetch/Axios | 2h 58min |
 | **Deploy Front-end** | Hospedagem da aplicação front-end na web e integração contínua básica com GitHub. | GitHub | 56min |
 
----
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-## 🛠️ Tecnologias e Ferramentas Chave
+<!-- GETTING STARTED -->
+## Como Iniciar
 
-Este repositório aplica as tecnologias mais demandadas pelo mercado atual:
+Siga as instruções abaixo para executar os códigos deste repositório localmente.
 
-| Categoria | Tecnologias Aplicadas |
-| :--- | :--- |
-| **Linguagens** | `JavaScript`, `TypeScript` (Tipagem estática) |
-| **Back-end** | `Node.js`, `Express` |
-| **Front-end** | `React`, `React Router`, `React Hook Form`, `Tailwind CSS` |
-| **Banco de Dados** | `SQL`, `PostgreSQL`, `SQLite` |
-| **Acesso a Dados** | `Knex.js` (Query Builder), `Prisma` (ORM) |
-| **Segurança & Validação** | `JWT` (Autenticação), `Zod` (Validação de Schemas) |
-| **Testes** | `Jest` (Testes Automatizados e E2E) |
-| **DevOps & Infra** | `Docker`, `Docker Compose`, `Deploy (Front e Back)` |
+### Pré-requisitos
 
----
+Para acompanhar e executar os projetos deste repositório, é recomendado que você tenha:
+* Conhecimento prévio em Lógica de Programação e JavaScript.
+* **Node.js** instalado na sua máquina.
+* **Docker** e **Docker Compose** instalados (para os módulos avançados de banco de dados).
+* Um gerenciador de pacotes (como `npm`, `yarn` ou `pnpm`).
 
-## 💻 Como executar os projetos
+### Instalação
 
 Como este repositório contém múltiplos módulos, geralmente cada pasta de projeto tem suas próprias dependências. O fluxo padrão para testar qualquer projeto localmente é:
 
 1. Clone o repositório:
-```bash
-git clone [https://github.com/alissonpef/Full-Stack-Rocketseat.git](https://github.com/SeuUsuario/NomeDoRepositorio.git)
+   ```sh
+   git clone https://github.com/alissonpef/backend_onebitcode.git
+   ```
+2. Navegue até o diretório do projeto específico e instale as dependências:
+   ```sh
+   npm install
+   ```
+3. Execute o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   ```
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+
+<!-- CONTATO -->
+## Contato
+
+Alisson Pereira Ferreira
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Gmail][gmail-shield]](mailto:alissonpef@gmail.com)
+
+Link do Projeto: [https://github.com/alissonpef/backend_onebitcode](https://github.com/alissonpef/backend_onebitcode)
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/alissonpef/backend_onebitcode.svg?style=for-the-badge
+[contributors-url]: https://github.com/alissonpef/backend_onebitcode/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alissonpef/backend_onebitcode.svg?style=for-the-badge
+[forks-url]: https://github.com/alissonpef/backend_onebitcode/network/members
+[stars-shield]: https://img.shields.io/github/stars/alissonpef/backend_onebitcode.svg?style=for-the-badge
+[stars-url]: https://github.com/alissonpef/backend_onebitcode/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alissonpef/backend_onebitcode.svg?style=for-the-badge
+[issues-url]: https://github.com/alissonpef/backend_onebitcode/issues
+
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-url]: https://www.linkedin.com/in/alisson-pereira-ferreira-45022623b/
+[gmail-shield]: https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white
