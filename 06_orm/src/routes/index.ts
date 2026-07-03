@@ -1,10 +1,10 @@
-import { Router } from "express"
+import { Router } from "express";
 
-import { usersRoutes } from "./users-routes"
-import { questionsRoutes } from "./questions-routes"
+import { usersRoutes } from "./users-routes";
+import { questionsRoutes } from "./questions-routes";
 
-const routes = Router()
-routes.use("/questions", questionsRoutes)
-routes.use("/users", usersRoutes)
+const routes = Router();
+routes.use("/questions", questionsRoutes);
+routes.use("/users", usersRoutes);
 
-export { routes }
+export { routes };
