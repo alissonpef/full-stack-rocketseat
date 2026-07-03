@@ -1,1 +1,3 @@
 *node_modules/
+06_orm/src/generated/prisma
+.env*
