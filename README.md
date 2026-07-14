@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/alissonpef/backend_onebitcode">
+  <a href="https://github.com/alissonpef/fullstack_rocketseat">
     <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Logo Node.js" width="120" height="auto">
   </a>
 
@@ -19,12 +19,12 @@
   <p align="center">
     O seu guia completo e prático para dominar a construção de aplicações web de ponta a ponta!
     <br />
-    <a href="https://github.com/alissonpef/backend_onebitcode"><strong>Explore os códigos »</strong></a>
+    <a href="https://github.com/alissonpef/fullstack_rocketseat"><strong>Explore os códigos »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/alissonpef/backend_onebitcode/issues">Reportar Bug</a>
+    <a href="https://github.com/alissonpef/fullstack_rocketseat/issues">Reportar Bug</a>
     ·
-    <a href="https://github.com/alissonpef/backend_onebitcode/issues">Solicitar Feature</a>
+    <a href="https://github.com/alissonpef/fullstack_rocketseat/issues">Solicitar Feature</a>
   </p>
 </div>
 
@@ -178,7 +178,7 @@ Como este repositório contém múltiplos módulos, geralmente cada pasta de pro
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/alissonpef/backend_onebitcode.git
+   git clone https://github.com/alissonpef/fullstack_rocketseat.git
    ```
 2. Navegue até o diretório do projeto específico e instale as dependências:
    ```sh
@@ -199,19 +199,19 @@ Alisson Pereira Ferreira
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Gmail][gmail-shield]](mailto:alissonpef@gmail.com)
 
-Link do Projeto: [https://github.com/alissonpef/backend_onebitcode](https://github.com/alissonpef/backend_onebitcode)
+Link do Projeto: [https://github.com/alissonpef/fullstack_rocketseat](https://github.com/alissonpef/fullstack_rocketseat)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/alissonpef/backend_onebitcode.svg?style=for-the-badge
-[contributors-url]: https://github.com/alissonpef/backend_onebitcode/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alissonpef/backend_onebitcode.svg?style=for-the-badge
-[forks-url]: https://github.com/alissonpef/backend_onebitcode/network/members
-[stars-shield]: https://img.shields.io/github/stars/alissonpef/backend_onebitcode.svg?style=for-the-badge
-[stars-url]: https://github.com/alissonpef/backend_onebitcode/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alissonpef/backend_onebitcode.svg?style=for-the-badge
-[issues-url]: https://github.com/alissonpef/backend_onebitcode/issues
+[contributors-shield]: https://img.shields.io/github/contributors/alissonpef/fullstack_rocketseat.svg?style=for-the-badge
+[contributors-url]: https://github.com/alissonpef/fullstack_rocketseat/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alissonpef/fullstack_rocketseat.svg?style=for-the-badge
+[forks-url]: https://github.com/alissonpef/fullstack_rocketseat/network/members
+[stars-shield]: https://img.shields.io/github/stars/alissonpef/fullstack_rocketseat.svg?style=for-the-badge
+[stars-url]: https://github.com/alissonpef/fullstack_rocketseat/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alissonpef/fullstack_rocketseat.svg?style=for-the-badge
+[issues-url]: https://github.com/alissonpef/fullstack_rocketseat/issues
 
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/alisson-pereira-ferreira-45022623b/
